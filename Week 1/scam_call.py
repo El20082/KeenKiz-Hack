@@ -6,7 +6,7 @@ def get_ints_from_string(str):
 		return int_list
 
 
-list = get_ints_from_string(input())
+list = get_ints_from_string(input("phone num pls"))
 sum = 0
 for i in list :
     sum +=i
